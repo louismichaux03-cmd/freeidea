@@ -1,0 +1,149 @@
+{
+	"_doc": "Plans de chaque section, tirés de la ligne « Visuel ». query = recherche Pexels (en anglais, bien plus de résultats), alt = recherches de secours, at = début de phrase de la voix off où le plan commence (sinon : début de la section), overlay = élément dessiné par-dessus la vidéo, reuse = reprend les clips d'un plan d'une autre section. counter = mouvements du compteur hors transitions entre niveaux.",
+	"intro": {
+		"counter": [
+			{ "at": "On va monter", "until": "On commence tout en bas", "to": 100000000000, "easing": "in" },
+			{ "at": "On commence tout en bas", "seconds": 0.8, "to": -10000, "easing": "inOut" }
+		],
+		"shots": [
+			{ "query": "counting money banknotes", "alt": ["money counting machine", "euro banknotes"] },
+			{ "at": "On va monter", "query": "skyscraper looking up", "alt": ["glass elevator going up", "climbing stairs"] },
+			{ "at": "À chaque palier", "query": "city people time lapse", "alt": ["busy street crowd", "city life"] },
+			{ "at": "On commence tout en bas", "query": "stairs going down", "alt": ["descending staircase", "basement stairs"] }
+		]
+	},
+	"niveau-01": {
+		"shots": [
+			{ "query": "stack of bills on table", "alt": ["unpaid bills", "pile of envelopes", "paperwork pile desk"] },
+			{
+				"at": "Et tu ne décroches plus",
+				"query": "smartphone ringing on table",
+				"alt": ["phone vibrating table", "incoming call smartphone"],
+				"overlay": { "type": "call", "title": "Numéro inconnu", "subtitle": "Appel entrant…" }
+			},
+			{ "at": "Le pire", "query": "stressed man looking at bills", "alt": ["worried woman bills", "calculating expenses stress"] }
+		]
+	},
+	"niveau-02": {
+		"shots": [
+			{ "query": "supermarket aisle", "alt": ["grocery store shopping", "supermarket shelves"] },
+			{ "at": "Tu fais tes courses", "query": "calculator on smartphone", "alt": ["phone calculator hand", "calculator"] },
+			{ "at": "Quand les potes", "query": "friends dinner restaurant", "alt": ["friends eating together", "restaurant table"] },
+			{ "at": "Et tu vis avec", "query": "anxious man sitting", "alt": ["worried woman", "stressed person"] }
+		]
+	},
+	"niveau-03": {
+		"shots": [
+			{
+				"query": "mobile banking app",
+				"alt": ["smartphone banking", "phone screen finance"],
+				"overlay": { "type": "balance", "title": "Solde disponible", "amount": "1 000,00 €" }
+			},
+			{ "at": "Le jour où la machine", "query": "washing machine", "alt": ["laundry machine", "delivery man boxes"] },
+			{ "at": "Tu ne fais toujours pas", "query": "contactless payment coffee shop", "alt": ["paying coffee card", "barista coffee"] },
+			{ "at": "Les banquiers", "query": "man sleeping peacefully", "alt": ["sleeping in bed", "peaceful sleep night"] }
+		]
+	},
+	"niveau-04": {
+		"shots": [
+			{
+				"query": "crowd walking city",
+				"alt": ["people walking street", "crowd"],
+				"overlay": { "type": "people", "total": 10, "grey": 4, "at": "plus de quatre adultes" }
+			},
+			{ "at": "Et tu te souviens", "query": "man looking out window thinking", "alt": ["pensive woman window", "thinking person"] },
+			{ "at": "Non à un patron", "query": "office desk letter", "alt": ["resignation letter", "leaving office", "office desk paper"] },
+			{ "at": "Au resto", "query": "reading restaurant menu", "alt": ["restaurant menu", "restaurant dinner"] },
+			{ "at": "Et tu commences à entendre", "query": "stock market chart screen", "alt": ["trading screen", "stock market"] }
+		]
+	},
+	"niveau-05": {
+		"shots": [
+			{
+				"query": "growth chart rising",
+				"alt": ["financial graph going up", "stock chart up"],
+				"overlay": { "type": "notification", "app": "Ma banque", "title": "Intérêts versés", "body": "Ton épargne vient de te rapporter de l'argent.", "at": "Placé tranquillement" }
+			},
+			{ "at": "Ton banquier", "query": "business handshake smiling", "alt": ["handshake office", "bank advisor"] },
+			{ "at": "Et si tu veux acheter", "query": "real estate agency window", "alt": ["house for sale sign", "real estate"] }
+		]
+	},
+	"niveau-06": {
+		"shots": [
+			{ "query": "house keys in hand", "alt": ["keys new home", "handing over keys"] },
+			{ "at": "Tu ne prends plus", "query": "new car parked in front of house", "alt": ["luxury car driveway", "new car"] },
+			{ "at": "Sauf qu'un demi-million", "query": "modern house exterior", "alt": ["suburban house", "beautiful house"] },
+			{
+				"at": "Beaucoup de gens ici",
+				"query": "checking bank balance on phone",
+				"alt": ["smartphone banking app", "mobile banking"],
+				"overlay": { "type": "balance", "title": "Compte courant", "amount": "212,00 €", "tone": "low" }
+			}
+		]
+	},
+	"niveau-07": {
+		"shots": [
+			{
+				"query": "confetti celebration",
+				"alt": ["party confetti falling", "celebration"],
+				"overlay": { "type": "confetti", "at": "counter" }
+			},
+			{ "at": "Et la plupart", "query": "family house exterior", "alt": ["beautiful home", "house"] },
+			{ "at": "Si tu touches le million", "query": "man thinking close up face", "alt": ["pensive man face", "thoughtful woman close up"] },
+			{ "at": "Autour de toi", "query": "luxury party champagne", "alt": ["luxury lifestyle", "rich people party"] }
+		]
+	},
+	"niveau-08": {
+		"shots": [
+			{ "query": "airport lounge", "alt": ["private jet", "business class airplane"] },
+			{
+				"at": "Tu as un comptable",
+				"query": "writing in planner calendar",
+				"alt": ["agenda notebook", "calendar schedule"],
+				"overlay": { "type": "agenda", "title": "Agenda de la semaine", "items": ["Lundi · Comptable", "Mardi · Avocat", "Jeudi · Notaire"] }
+			},
+			{
+				"at": "Mais un nouveau problème",
+				"query": "reading message on smartphone",
+				"alt": ["texting phone", "smartphone notification"],
+				"overlay": { "type": "message", "from": "Vieux pote", "text": "Ça fait longtemps ! On se fait un café ?", "at": "Ce pote d'enfance" }
+			},
+			{ "at": "Et tu commences à te méfier", "query": "suspicious man looking", "alt": ["man looking over shoulder", "serious man portrait"] }
+		]
+	},
+	"niveau-09": {
+		"shots": [
+			{ "query": "yacht aerial view", "alt": ["luxury yacht drone", "yacht sea"] },
+			{ "at": "Des gestionnaires", "query": "open space office people working", "alt": ["busy office team", "office workers"] },
+			{ "at": "Tu as plusieurs maisons", "query": "luxury villa", "alt": ["mansion aerial", "luxury house pool"] },
+			{ "at": "Tu fais attention", "query": "bodyguard", "alt": ["security guard", "school gate"] }
+		]
+	},
+	"niveau-10": {
+		"shots": [
+			{ "query": "stacks of money", "alt": ["money cash pile", "counting cash"] },
+			{ "at": "Il y a environ", "query": "crowd aerial view", "alt": ["busy crowd", "people crossing street aerial"] },
+			{ "at": "À ce niveau", "query": "boardroom conference table", "alt": ["business meeting large table", "conference room meeting"] },
+			{ "at": "Des ministres", "query": "press conference microphones", "alt": ["journalists microphones", "press conference"] },
+			{ "at": "Et tu deviens", "query": "newspaper printing", "alt": ["newspapers stack", "reading newspaper"] }
+		]
+	},
+	"niveau-11": {
+		"shots": [
+			{ "query": "earth from space", "alt": ["planet earth rotating", "earth orbit"] },
+			{ "at": "Vous tiendriez", "query": "empty meeting room chairs", "alt": ["empty conference room", "meeting room"] },
+			{ "at": "Ta fortune bouge", "query": "stock market ticker screen", "alt": ["stock market chart", "trading screen numbers"] },
+			{ "at": "Ton nom fait", "query": "newspaper headlines", "alt": ["breaking news", "news"] },
+			{ "at": "Tu peux financer", "query": "rocket launch", "alt": ["space rocket", "rocket"] },
+			{ "at": "Et pourtant", "query": "clock ticking", "alt": ["hourglass", "watch time"] }
+		]
+	},
+	"outro": {
+		"counter": [{ "at": "Bon.", "until": "Alors dis-moi", "to": 0, "easing": "inOut" }],
+		"shots": [
+			{ "reuse": "niveau-02", "shot": 0 },
+			{ "at": "Après, l'argent", "reuse": "niveau-02", "shot": 1 },
+			{ "at": "Alors dis-moi", "query": "typing on smartphone", "alt": ["person using phone", "smartphone hands"] }
+		]
+	}
+}

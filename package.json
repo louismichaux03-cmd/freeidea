@@ -1,0 +1,31 @@
+{
+  "name": "ta-vie-niveaux-richesse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vidéo YouTube « Ta vie à chaque niveau de richesse » : voix ElevenLabs, plans Pexels, montage Remotion.",
+  "scripts": {
+    "parse": "node scripts/parse-script.mjs",
+    "voice": "node scripts/voice.mjs",
+    "pexels": "node scripts/pexels.mjs",
+    "timeline": "node scripts/build-timeline.mjs",
+    "studio": "remotion studio",
+    "preview": "node scripts/render.mjs --preview",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/lib/*.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "5.3.0",
+    "@remotion/cli": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "dotenv": "18.0.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

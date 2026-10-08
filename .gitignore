@@ -1,0 +1,7 @@
+.env
+node_modules/
+out/
+public/videos/
+.cache/
+public/timeline.json
+public/musique/

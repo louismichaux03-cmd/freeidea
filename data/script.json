@@ -1,0 +1,197 @@
+{
+	"title": "Ta vie à chaque niveau de richesse",
+	"sections": [
+		{
+			"id": "intro",
+			"kind": "intro",
+			"title": "Intro",
+			"visual": "un compteur à 0 € au centre de l'écran. Il démarre, s'emballe, puis redescend d'un coup sous zéro, en rouge.",
+			"paragraphs": [
+				"Il existe un montant à partir duquel ta vie change vraiment. Et il est beaucoup plus petit que ce que tu crois.",
+				"On va monter niveau par niveau, des dettes jusqu'à cent milliards d'euros.",
+				"À chaque palier, on regarde ce qui change pour de vrai : ce que tu manges, où tu dors, ce qui t'empêche de dormir, et qui t'appelle. Parce que l'argent règle des problèmes, c'est vrai. Mais à chaque étage, il en crée de nouveaux.",
+				"On commence tout en bas."
+			],
+			"text": "Il existe un montant à partir duquel ta vie change vraiment. Et il est beaucoup plus petit que ce que tu crois.\n\nOn va monter niveau par niveau, des dettes jusqu'à cent milliards d'euros.\n\nÀ chaque palier, on regarde ce qui change pour de vrai : ce que tu manges, où tu dors, ce qui t'empêche de dormir, et qui t'appelle. Parce que l'argent règle des problèmes, c'est vrai. Mais à chaque étage, il en crée de nouveaux.\n\nOn commence tout en bas."
+		},
+		{
+			"id": "niveau-01",
+			"kind": "level",
+			"level": 1,
+			"title": "Niveau 1",
+			"amountLabel": "moins 10 000 €",
+			"amount": -10000,
+			"visual": "compteur en rouge sur –10 000 €. Des lettres de relance empilées sur une table, un téléphone qui vibre avec « Numéro inconnu » à l'écran.",
+			"paragraphs": [
+				"Moins dix mille euros. Tu n'es pas à zéro, tu es en dessous. Un crédit pour la voiture, un découvert qui s'est installé comme un colocataire, et peut-être un paiement en plusieurs fois pour un téléphone que tu as déjà cassé.",
+				"Ici, ton salaire est dépensé avant même d'arriver sur ton compte. Et tu ne décroches plus quand c'est un numéro inconnu.",
+				"Le pire, c'est qu'être fauché coûte cher. Frais bancaires, intérêts, pénalités de retard : chaque mois, tu payes juste pour rester au même endroit."
+			],
+			"text": "Moins dix mille euros. Tu n'es pas à zéro, tu es en dessous. Un crédit pour la voiture, un découvert qui s'est installé comme un colocataire, et peut-être un paiement en plusieurs fois pour un téléphone que tu as déjà cassé.\n\nIci, ton salaire est dépensé avant même d'arriver sur ton compte. Et tu ne décroches plus quand c'est un numéro inconnu.\n\nLe pire, c'est qu'être fauché coûte cher. Frais bancaires, intérêts, pénalités de retard : chaque mois, tu payes juste pour rester au même endroit."
+		},
+		{
+			"id": "niveau-02",
+			"kind": "level",
+			"level": 2,
+			"title": "Niveau 2",
+			"amountLabel": "0 €",
+			"amount": 0,
+			"visual": "le compteur remonte et s'arrête pile sur 0 €. Dans un rayon de supermarché, une main tient un téléphone avec la calculatrice ouverte.",
+			"paragraphs": [
+				"Zéro euro pile. Bonne nouvelle, tu ne dois plus rien à personne. Moins bonne nouvelle, tu n'as rien non plus.",
+				"Tu fais tes courses avec la calculatrice du téléphone ouverte, et tu connais le prix des pâtes dans trois magasins différents. Quand les potes proposent un resto, tu dis que tu as déjà mangé.",
+				"Et tu vis avec une boule au ventre permanente. Une amende, une rage de dents, une machine à laver qui lâche, et tout s'écroule."
+			],
+			"text": "Zéro euro pile. Bonne nouvelle, tu ne dois plus rien à personne. Moins bonne nouvelle, tu n'as rien non plus.\n\nTu fais tes courses avec la calculatrice du téléphone ouverte, et tu connais le prix des pâtes dans trois magasins différents. Quand les potes proposent un resto, tu dis que tu as déjà mangé.\n\nEt tu vis avec une boule au ventre permanente. Une amende, une rage de dents, une machine à laver qui lâche, et tout s'écroule."
+		},
+		{
+			"id": "niveau-03",
+			"kind": "level",
+			"level": 3,
+			"title": "Niveau 3",
+			"amountLabel": "1 000 €",
+			"amount": 1000,
+			"visual": "appli bancaire qui affiche 1 000 €. Une machine à laver neuve qu'on livre. Quelqu'un qui paye un café sans regarder son téléphone.",
+			"paragraphs": [
+				"Mille euros. Ça a l'air de rien, et pourtant c'est le premier vrai palier.",
+				"Le jour où la machine à laver lâche, tu en rachètes une, et ta semaine continue normalement. Tu ne fais toujours pas de folies, mais tu ne vérifies plus ton solde avant de payer un café. Parfois, tu prends même la vraie marque au lieu de la marque distributeur.",
+				"Les banquiers appellent ça une épargne de précaution. Toi, tu appelles ça dormir la nuit."
+			],
+			"text": "Mille euros. Ça a l'air de rien, et pourtant c'est le premier vrai palier.\n\nLe jour où la machine à laver lâche, tu en rachètes une, et ta semaine continue normalement. Tu ne fais toujours pas de folies, mais tu ne vérifies plus ton solde avant de payer un café. Parfois, tu prends même la vraie marque au lieu de la marque distributeur.\n\nLes banquiers appellent ça une épargne de précaution. Toi, tu appelles ça dormir la nuit."
+		},
+		{
+			"id": "niveau-04",
+			"kind": "level",
+			"level": 4,
+			"title": "Niveau 4",
+			"amountLabel": "10 000 €",
+			"amount": 10000,
+			"visual": "dix silhouettes alignées, quatre passent en gris. Puis quelqu'un qui pose calmement une lettre de démission sur un bureau.",
+			"paragraphs": [
+				"Dix mille euros. Dans le monde, plus de quatre adultes sur dix possèdent moins que ça.",
+				"Et tu te souviens du montant dont je parlais au début, celui qui change vraiment ta vie ? Pour beaucoup de gens, c'est celui-là. Parce qu'à partir d'ici, tu peux dire non.",
+				"Non à un patron qui te traite mal, non à un appart pourri, parce que tu peux tenir quelques mois sans paniquer. Au resto, tu regardes les plats avant les prix. Et tu commences à entendre parler d'ETF et de bourse, en faisant semblant de comprendre."
+			],
+			"text": "Dix mille euros. Dans le monde, plus de quatre adultes sur dix possèdent moins que ça.\n\nEt tu te souviens du montant dont je parlais au début, celui qui change vraiment ta vie ? Pour beaucoup de gens, c'est celui-là. Parce qu'à partir d'ici, tu peux dire non.\n\nNon à un patron qui te traite mal, non à un appart pourri, parce que tu peux tenir quelques mois sans paniquer. Au resto, tu regardes les plats avant les prix. Et tu commences à entendre parler d'ETF et de bourse, en faisant semblant de comprendre."
+		},
+		{
+			"id": "niveau-05",
+			"kind": "level",
+			"level": 5,
+			"title": "Niveau 5",
+			"amountLabel": "100 000 €",
+			"amount": 100000,
+			"visual": "une courbe qui monte doucement, une notification « Intérêts versés ». Puis un conseiller bancaire tout sourire qui tend la main. Pour finir, une vitrine d'agence immobilière.",
+			"paragraphs": [
+				"Cent mille euros. À l'échelle du monde, à peine un adulte sur six possède autant.",
+				"Et là, il se passe un truc bizarre : ton argent commence à travailler à ta place. Placé tranquillement, il peut te rapporter quelques milliers d'euros par an. Pas de quoi arrêter de bosser, mais assez pour sentir la différence.",
+				"Ton banquier, lui, la sent aussi : d'un coup, il t'appelle par ton prénom. Et si tu veux acheter un logement, dans beaucoup de villes, cent mille euros, c'est l'apport. Pas l'appartement."
+			],
+			"text": "Cent mille euros. À l'échelle du monde, à peine un adulte sur six possède autant.\n\nEt là, il se passe un truc bizarre : ton argent commence à travailler à ta place. Placé tranquillement, il peut te rapporter quelques milliers d'euros par an. Pas de quoi arrêter de bosser, mais assez pour sentir la différence.\n\nTon banquier, lui, la sent aussi : d'un coup, il t'appelle par ton prénom. Et si tu veux acheter un logement, dans beaucoup de villes, cent mille euros, c'est l'apport. Pas l'appartement."
+		},
+		{
+			"id": "niveau-06",
+			"kind": "level",
+			"level": 6,
+			"title": "Niveau 6",
+			"amountLabel": "500 000 €",
+			"amount": 500000,
+			"visual": "des clés de maison qui tombent dans une main, une voiture neuve garée devant. Puis gros plan sur l'appli bancaire : compte courant à 212 €.",
+			"paragraphs": [
+				"Cinq cent mille euros. Tu es propriétaire, ou tu pourrais l'être demain. Tu ne prends plus la voiture la moins chère, tu prends celle qui te plaît.",
+				"Sauf qu'un demi-million, c'est le niveau le plus trompeur. Tu te sens riche, mais si presque tout est dans ta maison, tu ne peux pas manger ta maison.",
+				"Beaucoup de gens ici ont un beau patrimoine sur le papier, et un compte courant qui fait la tête à la fin du mois. Riche en briques, fauché en cash."
+			],
+			"text": "Cinq cent mille euros. Tu es propriétaire, ou tu pourrais l'être demain. Tu ne prends plus la voiture la moins chère, tu prends celle qui te plaît.\n\nSauf qu'un demi-million, c'est le niveau le plus trompeur. Tu te sens riche, mais si presque tout est dans ta maison, tu ne peux pas manger ta maison.\n\nBeaucoup de gens ici ont un beau patrimoine sur le papier, et un compte courant qui fait la tête à la fin du mois. Riche en briques, fauché en cash."
+		},
+		{
+			"id": "niveau-07",
+			"kind": "level",
+			"level": 7,
+			"title": "Niveau 7",
+			"amountLabel": "1 000 000 €",
+			"amount": 1000000,
+			"visual": "le compteur passe à 1 000 000 €, quelques confettis. Puis gros plan sur un visage qui fait un calcul de tête, pas si euphorique.",
+			"paragraphs": [
+				"Un million d'euros. Le chiffre magique. Sur la planète, moins de deux adultes sur cent en sont là.",
+				"Et la plupart n'ont pas un million sur leur compte : leur plus gros patrimoine, c'est leur maison.",
+				"Si tu touches le million d'un coup, par contre, tu peux vite déchanter. Placé prudemment, il te rapporte peut-être trente ou quarante mille euros par an. De quoi vivre confortablement. Pas de quoi acheter un yacht.",
+				"Tu es millionnaire, et tu fais quand même attention. Autour de toi, tu commences à croiser des gens qui ont dix fois plus. Et la comparaison, elle, ne s'arrête jamais."
+			],
+			"text": "Un million d'euros. Le chiffre magique. Sur la planète, moins de deux adultes sur cent en sont là.\n\nEt la plupart n'ont pas un million sur leur compte : leur plus gros patrimoine, c'est leur maison.\n\nSi tu touches le million d'un coup, par contre, tu peux vite déchanter. Placé prudemment, il te rapporte peut-être trente ou quarante mille euros par an. De quoi vivre confortablement. Pas de quoi acheter un yacht.\n\nTu es millionnaire, et tu fais quand même attention. Autour de toi, tu commences à croiser des gens qui ont dix fois plus. Et la comparaison, elle, ne s'arrête jamais."
+		},
+		{
+			"id": "niveau-08",
+			"kind": "level",
+			"level": 8,
+			"title": "Niveau 8",
+			"amountLabel": "10 000 000 €",
+			"amount": 10000000,
+			"visual": "salon VIP d'aéroport. Un agenda rempli de rendez-vous : comptable, avocat, notaire. Puis un message d'un vieux pote : « Ça fait longtemps ! On se fait un café ? »",
+			"paragraphs": [
+				"Dix millions. Là, tu changes de monde. Tu ne connais plus le prix d'un billet d'avion, parce que quelqu'un s'en occupe pour toi. Tu peux vivre uniquement de ce que rapporte ton argent, sans jamais toucher au capital.",
+				"Tu as un comptable, un avocat, un conseiller en patrimoine, et tu les vois plus souvent que certains membres de ta famille.",
+				"Mais un nouveau problème apparaît : la confiance. Ce pote d'enfance qui te recontacte après dix ans, il prend vraiment de tes nouvelles, ou il a un projet à te présenter ? Et tu commences à te méfier de gens qui ne t'ont rien fait."
+			],
+			"text": "Dix millions. Là, tu changes de monde. Tu ne connais plus le prix d'un billet d'avion, parce que quelqu'un s'en occupe pour toi. Tu peux vivre uniquement de ce que rapporte ton argent, sans jamais toucher au capital.\n\nTu as un comptable, un avocat, un conseiller en patrimoine, et tu les vois plus souvent que certains membres de ta famille.\n\nMais un nouveau problème apparaît : la confiance. Ce pote d'enfance qui te recontacte après dix ans, il prend vraiment de tes nouvelles, ou il a un projet à te présenter ? Et tu commences à te méfier de gens qui ne t'ont rien fait."
+		},
+		{
+			"id": "niveau-09",
+			"kind": "level",
+			"level": 9,
+			"title": "Niveau 9",
+			"amountLabel": "100 000 000 €",
+			"amount": 100000000,
+			"visual": "un yacht vu du ciel. Puis un open space où une dizaine de personnes travaillent pour une seule. Pour finir, un garde du corps devant le portail d'une école.",
+			"paragraphs": [
+				"Cent millions. Ton argent ne travaille plus vraiment pour toi : ce sont des gens qui travaillent pour ton argent. Des gestionnaires, une assistante, et parfois quelqu'un qui gère l'assistante.",
+				"Tu as plusieurs maisons, et dans certaines, tu n'as pas dormi depuis un an. Ce qui a de la valeur maintenant, c'est ton temps et ta discrétion.",
+				"Tu fais attention à ce que tu publies, à qui sait dans quelle école vont tes enfants, à ce qu'on écrit sur toi. La sécurité devient une ligne de ton budget, comme les courses pour les autres."
+			],
+			"text": "Cent millions. Ton argent ne travaille plus vraiment pour toi : ce sont des gens qui travaillent pour ton argent. Des gestionnaires, une assistante, et parfois quelqu'un qui gère l'assistante.\n\nTu as plusieurs maisons, et dans certaines, tu n'as pas dormi depuis un an. Ce qui a de la valeur maintenant, c'est ton temps et ta discrétion.\n\nTu fais attention à ce que tu publies, à qui sait dans quelle école vont tes enfants, à ce qu'on écrit sur toi. La sécurité devient une ligne de ton budget, comme les courses pour les autres."
+		},
+		{
+			"id": "niveau-10",
+			"kind": "level",
+			"level": 10,
+			"title": "Niveau 10",
+			"amountLabel": "1 milliard €",
+			"amount": 1000000000,
+			"visual": "le compteur dépasse le milliard et s'emballe. Une table de conférence immense. Des micros tendus, des unes de journaux.",
+			"paragraphs": [
+				"Un milliard. Mille millions. Pour te donner une idée : si tu dépensais mille euros par jour, il te faudrait plus de deux mille sept cents ans pour tout claquer.",
+				"Il y a environ trois mille quatre cents milliardaires dans le monde selon Forbes, pour plus de huit milliards d'humains. À ce niveau, tu n'achètes plus des objets. Tu achètes des entreprises, des clubs de foot, des journaux.",
+				"Des ministres prennent ton appel. Et tu deviens un sujet de débat : pour certains, un modèle, pour d'autres, le problème."
+			],
+			"text": "Un milliard. Mille millions. Pour te donner une idée : si tu dépensais mille euros par jour, il te faudrait plus de deux mille sept cents ans pour tout claquer.\n\nIl y a environ trois mille quatre cents milliardaires dans le monde selon Forbes, pour plus de huit milliards d'humains. À ce niveau, tu n'achètes plus des objets. Tu achètes des entreprises, des clubs de foot, des journaux.\n\nDes ministres prennent ton appel. Et tu deviens un sujet de débat : pour certains, un modèle, pour d'autres, le problème."
+		},
+		{
+			"id": "niveau-11",
+			"kind": "level",
+			"level": 11,
+			"title": "Niveau 11",
+			"amountLabel": "100 milliards €",
+			"amount": 100000000000,
+			"visual": "la Terre vue de l'espace, zoom jusqu'à une petite salle de réunion avec une vingtaine de chaises. Puis une courbe boursière qui fait des montagnes russes.",
+			"paragraphs": [
+				"Cent milliards. Vous êtes à peine une vingtaine sur toute la planète. Vous tiendriez dans une salle de réunion.",
+				"Ta fortune bouge de plusieurs milliards en une journée, juste parce que la bourse a éternué. Ton nom fait les gros titres quand tu rachètes une entreprise, ou quand tu publies un message à minuit. Tu pèses plus lourd que l'économie de certains pays.",
+				"Tu peux financer une fusée, une fondation, un hôpital. Et pourtant, tu as toujours vingt-quatre heures dans une journée, un seul corps, et tu ne peux pas acheter une minute de plus."
+			],
+			"text": "Cent milliards. Vous êtes à peine une vingtaine sur toute la planète. Vous tiendriez dans une salle de réunion.\n\nTa fortune bouge de plusieurs milliards en une journée, juste parce que la bourse a éternué. Ton nom fait les gros titres quand tu rachètes une entreprise, ou quand tu publies un message à minuit. Tu pèses plus lourd que l'économie de certains pays.\n\nTu peux financer une fusée, une fondation, un hôpital. Et pourtant, tu as toujours vingt-quatre heures dans une journée, un seul corps, et tu ne peux pas acheter une minute de plus."
+		},
+		{
+			"id": "outro",
+			"kind": "outro",
+			"title": "Outro",
+			"visual": "retour au rayon de supermarché du niveau 2, calculatrice ouverte. Le compteur redescend doucement à zéro.",
+			"paragraphs": [
+				"Bon. Si on résume : jusqu'à un certain point, chaque euro en plus t'enlève un vrai problème. La peur du loyer, de la panne, de l'imprévu.",
+				"Après, l'argent change de nature. Il t'achète du temps, puis de la tranquillité, puis du pouvoir. Et à chaque étage, les soucis ne disparaissent pas. Ils changent juste de taille.",
+				"Alors dis-moi en commentaire à quel niveau tu es aujourd'hui, et surtout à quel niveau tu t'arrêterais si tu pouvais choisir. Perso, je prendrais le million. Les problèmes du milliard, très peu pour moi.",
+				"Et abonne-toi : c'est gratuit, pour une fois."
+			],
+			"text": "Bon. Si on résume : jusqu'à un certain point, chaque euro en plus t'enlève un vrai problème. La peur du loyer, de la panne, de l'imprévu.\n\nAprès, l'argent change de nature. Il t'achète du temps, puis de la tranquillité, puis du pouvoir. Et à chaque étage, les soucis ne disparaissent pas. Ils changent juste de taille.\n\nAlors dis-moi en commentaire à quel niveau tu es aujourd'hui, et surtout à quel niveau tu t'arrêterais si tu pouvais choisir. Perso, je prendrais le million. Les problèmes du milliard, très peu pour moi.\n\nEt abonne-toi : c'est gratuit, pour une fois."
+		}
+	]
+}
